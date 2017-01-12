@@ -111,5 +111,9 @@ export default [
   {
     "quote":"Never ruin an apology with an excuse.",
     "author":"Benjamin Franklin"
+  },
+  {
+    "quote":"Under pressure you don't rise to the occasion, you sink to the level of your training. That's why we train so hard.",
+    "author":"Unnamed Navy Seal"
   }
 ]
