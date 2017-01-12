@@ -1,0 +1,65 @@
+.RandomPage {
+  width: 70%;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: left;
+  font-weight: 200;
+  border-top: 2px solid #f1f1f1;
+  padding-top: 2rem;
+}
+
+.RandomPage .quote {
+  font-family: Copperplate, serif;
+  position: relative;
+  quotes: "\201C""\201D""\2018""\2019";
+  color:#afb3b9;
+  font-style:oblique;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-left: 55px;
+  padding-right: 20px;
+  border-left: 4px solid #80848b;
+  background-color:#3e3e3e;
+}
+
+.RandomPage .quote:before {
+  font-family: Georgia, serif;
+  color: #ccc;
+  content:open-quote;
+  font-size: 5em;
+  line-height: 0em;
+  position: absolute;
+  left: 3px;
+  top: 42px;
+}
+
+.RandomPage .author {
+  font-family: Copperplate, serif;
+  display:block;
+  color: #afb3b9;
+  font-size: 12px;
+  padding-top:5px;
+  padding-left: 60px;
+  padding-bottom: 10px;
+  border-left: 4px solid #80848b;
+  background-color:#3e3e3e;
+
+}
+
+.RandomPage .author:before {
+  content: "\2014 \2009";
+}
+
+.RandomPage .refresh {
+  width:24px;
+  height:24px;
+  vertical-align: middle;
+}
+
+.RandomPage .refresh:hover {
+  cursor: pointer;
+}
+
+.RandomPage .refreshContainer {
+  margin-left: 0.5rem;
+}

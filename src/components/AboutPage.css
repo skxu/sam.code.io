@@ -1,0 +1,22 @@
+.AboutPage {
+  width: 70%;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.5rem;
+  border-top: 2px solid #f1f1f1;
+}
+
+.AboutPage h1 {
+  text-align: center;
+}
+
+.icon svg {
+  color: white;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+  fill: silver;
+  margin-right: 10px;
+}
+

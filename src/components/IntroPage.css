@@ -1,0 +1,8 @@
+.IntroPage {
+  width: 70%;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: left;
+  font-weight: 200;
+  border-top: 2px solid #f1f1f1;
+}

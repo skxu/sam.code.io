@@ -1,0 +1,15 @@
+.NavBar {
+  text-align: center;
+  padding: 10px;
+}
+
+.NavItem {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.NavBar a {
+  text-decoration: none;
+  outline: none;
+  color: #a9a9fd;
+}
