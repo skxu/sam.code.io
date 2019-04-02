@@ -102,11 +102,11 @@ export default [
   },
   {
     "quote":"Do you need an umbrella? Well next time don't forget to bring one.",
-    "author":"Sam Xu"
+    "author":"Anonymous"
   },
   {
     "quote":"Is that a sandwich burrito?",
-    "author":"Vivian"
+    "author":"Anonymous"
   },
   {
     "quote":"Never ruin an apology with an excuse.",
@@ -115,5 +115,13 @@ export default [
   {
     "quote":"Under pressure you don't rise to the occasion, you sink to the level of your training. That's why we train so hard.",
     "author":"Unnamed Navy Seal"
+  },
+  {
+    "quote": "Luck occurs when preparation meets opportunity.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "quote": "Not all who wander are lost",
+    "author": "Anonymous"
   }
 ]
