@@ -4,7 +4,7 @@
   "homepage": "http://sam.code.io",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.8.4"
+    "react-scripts": "^2.1.8"
   },
   "dependencies": {
     "react": "^15.6.2",
