@@ -11,16 +11,18 @@ export default class ProjectCard extends Component {
       >
         <div 
           style={{
-            top: '50%',
-            position: 'relative',
-            display: 'inline-block',
+            lineHeight: 2,
+            margin: '0 auto',
+            marginBottom: '2rem',
             backgroundImage: 'url(' + this.props.thumbnail + ')',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'auto 100%',
             backgroundPosition: '50% 50%',
             backgroundColor: 'rgb(44,44,44)',
-            height: '160px',
-            width: '160px',
+            width: '35vw',
+            maxWidth: '160px',
+            height: '35vw',
+            maxHeight: '160px',
             borderRadius: '3%',
             boxShadow: 'rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px'
           }}
@@ -28,11 +30,14 @@ export default class ProjectCard extends Component {
         <div
           style={{
             display: 'inline-block',
-            marginLeft: '2rem',
-            width: 'calc(100% - 220px)',
             textAlign: 'left',
-            maxHeight: 228,
-            textOverflow: 'ellipsis'
+            maxWidth: '450px',
+            width: '75%',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            paddingRight: '2rem',
+            paddingLeft: '1rem',
+            paddingBottom: '2rem'
           }}
         >
           <h4>{this.props.title}</h4>

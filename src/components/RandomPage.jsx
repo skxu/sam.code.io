@@ -8,16 +8,24 @@ export default class RandomPage extends Component {
     super(props);
     this.state = {
       quote: '',
-      author: ''
+      author: '',
+      currentQuoteIndex: null
     }
     this.getRandomQuote = this.getRandomQuote.bind(this);
   }
   
   getRandomQuote() {
     let randomIndex = Math.floor(Math.random()*quotes.length);
+    
+    while (randomIndex === this.state.currentQuoteIndex) {
+      // prevent duplicates
+      randomIndex = Math.floor(Math.random()*quotes.length);
+    }
+    
     this.setState({
       quote: quotes[randomIndex].quote,
-      author: quotes[randomIndex].author
+      author: quotes[randomIndex].author,
+      currentQuoteIndex: randomIndex
     });
   }
 

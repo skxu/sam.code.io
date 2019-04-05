@@ -10,7 +10,8 @@ export default class NavBar extends Component {
         <Link to="/" className="NavItem">Home</Link>
         <Link to="/about" className="NavItem">About</Link>
         <Link to="/projects" className="NavItem">Projects</Link>
-        <Link to="/random" className="NavItem">Random</Link>
+        <Link to="/quotes" className="NavItem">Quotes</Link>
+        <Link to="/links" className="NavItem">Links</Link>
       </div>
     )
   }

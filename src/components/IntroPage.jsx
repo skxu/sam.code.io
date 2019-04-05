@@ -9,13 +9,12 @@ export default class ProjectsPage extends Component {
           <p>
             Hi! 
           <br />
-            This piece of the internet serves as my personal site.
+            This is my personal piece of the internet.
           </p>
           <p>
-            No, there isn't a reason why the pineapple is spinning. Yes, it's quite random.
-          </p>
-          <p>
-            Yes, I do own the domain code.io. No, it's not for sale.
+            Yes, I do own the domain code.io. 
+            <br/>
+            No, it's not for sale.
           </p>
         </div>
       )

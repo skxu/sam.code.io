@@ -123,5 +123,9 @@ export default [
   {
     "quote": "Not all who wander are lost",
     "author": "Anonymous"
+  },
+  {
+    "quote": "People may not remember exactly what you did, or what you said, but they will always remember how you made them feel.",
+    "author": "Maya Angelou"
   }
 ]

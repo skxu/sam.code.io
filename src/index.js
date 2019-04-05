@@ -7,6 +7,7 @@ import IntroPage from './components/IntroPage';
 import AboutPage from './components/AboutPage';
 import RandomPage from './components/RandomPage';
 import NotFound from './components/NotFound';
+import LinksPage from './components/LinksPage';
 import './index.css';
 
 ReactDOM.render(
@@ -15,7 +16,8 @@ ReactDOM.render(
       <IndexRoute component={ IntroPage } />
       <Route path="/about" component={ AboutPage } />
       <Route path="/projects" component={ ProjectsPage } />
-      <Route path="/random" component={ RandomPage } />
+      <Route path="/quotes" component={ RandomPage } />
+      <Route path="/links" component={ LinksPage } />
       <Route path="*" component={ NotFound }/>
     </Route>
   </Router>,
