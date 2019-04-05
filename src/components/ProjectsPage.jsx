@@ -19,7 +19,7 @@ export default class ProjectsPage extends Component {
             <div>
               <p>Finance tracking and analytics frontend app & api.</p>
               <p>Javascript, React, MongoDB, NodeJS</p>
-              <p><a className="link" href="http://spoor.code.io">Coming Soon ></a></p>
+              <p><a className="link">Coming Soon</a></p>
             </div>
           }
         />
