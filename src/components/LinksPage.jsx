@@ -56,27 +56,46 @@ export default class LinksPage extends Component {
             mainTitle="bash.org"
             description="Crude humor"
           />
+          <LinkElement
+            mainUrl="https://sivers.org/kimo"
+            mainTitle="There is no speed limit"
+            description="A motivational story"
+          />
         </ul>
 
         <h3>Memorable Moments</h3>
         <ul>
+          <li>Kobe Bryant dies in helicopter crash (2020)</li>
+          <li>Path of Exile 2 and Diablo IV announced (2019)</li>
+          <li>OG wins back to back DotA 2 TI (2019)</li>
+          <li>Dota Auto Chess launches, starting autobattler trends (2019)</li>
+          <li>Ethereum & Bitcoin craze (2018)</li>
+          <li>Fortnite launches, starting battle royale trends (2017)</li>
+          <li>Total solar eclipse (2017)</li>
           <li>Pokemon GO launches (2016)</li>
           <li>AlphaGo defeats Lee Sedol in Go (2016)</li>
+          <li>Floyd Mayweather vs Manny Pacquiao (2015)</li>
           <li>2048 goes viral (2014)</li>
           <li>Twitch Plays Pokemon (2014)</li>
+          <li>Path of Exile launches (2013)</li>
           <li>DotA 2 TI3 "Million Dollar Dream Coil" (2013)</li>
+          <li>Aaron Swartz commits suicide (2013)</li>
           <li>Diablo III launches (2012)</li>
+          <li>Steve Jobs passes away (2011)</li>
           <li>First time playing Minecraft (2010)</li>
           <li>Usain Bolt's 100M run in olympics (2008)</li>
           <li>Rise of gaming on Facebook like Warbook (2007)</li>
+          <li>Google acquires Youtube (2006)</li>
           <li>Pluto removed as a planet (2006)</li>
           <li>Leeroy Jenkins (2006)</li>
+          <li>MapleStory Global launches (2005)</li>
           <li>Invited to Gmail (2004)</li>
           <li>Warcraft III launches (2003)</li>
         </ul>
 
         <h3>Graveyard</h3>
         <ul>
+          <li>Grooveshark</li>
           <li>Myspace</li>
           <li>Xanga</li>
           <li>Digg</li>
